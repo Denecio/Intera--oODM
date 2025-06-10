@@ -4,7 +4,7 @@ int offset = 4;
 
 void drawCurrentShape(PGraphics canvas, Contour contour, PImage src){
   pushMatrix();
-    translate(width-100-cam.width, 0);
+    translate(width-100-cam.width, 100);
     strokeWeight(3);
     stroke(360, 100, 100);
     noFill();
